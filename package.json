@@ -3,6 +3,8 @@
   "scripts": {
     "build": "npx projen build",
     "bundle": "npx projen bundle",
+    "bundle:dummy.lambda": "npx projen bundle:dummy.lambda",
+    "bundle:dummy.lambda:watch": "npx projen bundle:dummy.lambda:watch",
     "clobber": "npx projen clobber",
     "compile": "npx projen compile",
     "default": "npx projen default",
@@ -46,6 +48,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "^2.1.0",
+    "cdk-nag": "^2.14.46",
     "constructs": "^10.0.5"
   },
   "license": "Apache-2.0",
